@@ -1,0 +1,10 @@
+.Consider alt player char from Warped pack.
+.New player model that skates instead of walking (Armored Core). (done, with existing tho.)
+.First VR level context "lets test out the specs of this new model adapted for this planetary conditions".
+-(player is familiarized with the full capabilities of the body, emphasized to expect no upgrades after it)
+-(VR test level focuses on showing the extremes that the body is capable of, letting the player know their limits & potential)
+.Tileset order is this: Main - Fill - Spice - BG
+.Consider multi-camera head so that 360 aiming isn't so wierd.
+(when player rotates arms to aim anywhere in the 180' region behind them, the player doesn't flip with the cursor so the arms just spin all the way back... in a way that is impossible for a human. I want 360 aiming at all times, so perharps a different style head that has cameras facing all directions is needed here. Either a glass dome head (lacks personality imo) or a multiple direction eyes orb (kinda wierd, but cool i think?))
+.For the smartgun expansion sheet, add shoulder mounted megalaser cannons (slayer thermal destroyer) and gigacannons (ridiculous slabs of giant guns)
+.Remember that Melee weapons are projectile based so that crosshair and free directional aim is preserved!

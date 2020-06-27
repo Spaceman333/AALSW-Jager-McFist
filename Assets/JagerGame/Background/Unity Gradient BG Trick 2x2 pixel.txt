@@ -1,0 +1,10 @@
+It is possible to make laughably easy gradient backgrounds out of 1x2, 2x2, 2x4 (or similar tiny size) random color pixel images. The whole trick is based on using Unity's Bilinear Filter that blurs the pixels automatically when the sprite is imported.
+
+Tutorial:
+1. Import the pixel image.
+2. Set to Sprite (2D and UI).
+3. Wrap Mode to Clamp.
+4. Filter Mode to Bilinear.
+5. Place in scene and just scale it to any size the BG is meant to be.
+
+Thats it.
