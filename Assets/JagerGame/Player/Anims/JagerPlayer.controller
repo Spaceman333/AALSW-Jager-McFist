@@ -9,60 +9,60 @@ AnimatorController:
   m_Name: JagerPlayer
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsSkating
-    m_Type: 4
+  - m_Name: AnimIsIdle
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsRunning
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsRun
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsBall
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsSkate
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsOff
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsBall
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsJumping
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsJump
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsClimbing
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsClimb
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: IsIdle
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimIsOff
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: OnGround
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimSpeedRun
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: OnWallCeilingSurface
-    m_Type: 4
+    m_Controller: {fileID: 9100000}
+  - m_Name: AnimSpeedClimb
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -85,10 +85,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsClimbing
+    m_ConditionEvent: AnimIsClimb
     m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: OnWallCeilingSurface
+  - m_ConditionMode: 3
+    m_ConditionEvent: AnimSpeedClimb
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102366554508321134}
@@ -113,7 +113,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsJumping
+    m_ConditionEvent: AnimIsJump
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102208868551346884}
@@ -138,10 +138,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsSkating
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: OnGround
+    m_ConditionEvent: AnimIsSkate
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102938340814531970}
@@ -166,10 +163,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRunning
+    m_ConditionEvent: AnimIsRun
     m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: OnGround
+  - m_ConditionMode: 3
+    m_ConditionEvent: AnimSpeedRun
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102853086107013046}
@@ -194,10 +191,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: OnGround
+    m_ConditionEvent: AnimIsIdle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102289470745215434}
@@ -222,7 +216,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsOff
+    m_ConditionEvent: AnimIsOff
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102992585663293586}
@@ -247,7 +241,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsBall
+    m_ConditionEvent: AnimIsBall
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102294133512307508}
@@ -489,6 +483,6 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 228, y: 192, z: 0}
   m_EntryPosition: {x: 228, y: 12, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ExitPosition: {x: 228, y: 60, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102289470745215434}
