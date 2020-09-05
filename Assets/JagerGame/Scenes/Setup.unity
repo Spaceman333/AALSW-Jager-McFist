@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 194837631}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 317747824}
   m_Layer: 0
   m_Name: JagerPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2150,12 +2150,12 @@ MonoBehaviour:
         actionHashCodes: 4ded5503
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 1
-          name: rigidbodyUpperREF
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 890938324}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -3842,7 +3842,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -3950,7 +3950,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -4239,7 +4239,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -4603,7 +4603,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -4807,7 +4807,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -5109,7 +5109,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -5560,50 +5560,22 @@ MonoBehaviour:
         linkConstraint: 0
         colorIndex: 0
       actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.GetFsmGameObject
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5b66cf00
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: RigidBallREF
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: JagerMetadata
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: rigidbodyBall
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -5617,20 +5589,15 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000001300000001000000
-        paramName:
-        - gameObject
-        - fsmName
-        - variableName
-        - storeValue
-        - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000001000000
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     - name: is crouching?
       description: 
       colorIndex: 1
@@ -5909,7 +5876,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -6264,19 +6231,15 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetFsmGameObject
         - HutongGames.PlayMaker.Actions.GetFsmGameObject
         - HutongGames.PlayMaker.Actions.GetFsmGameObject
-        - HutongGames.PlayMaker.Actions.GetFsmGameObject
-        - HutongGames.PlayMaker.Actions.GetFsmGameObject
         customNames:
         - 
         - 
         - 
         - 
-        - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 00000000050000000a0000000f0000001400000019000000
-        actionHashCodes: 5b66cf005b66cf005b66cf005b66cf005b66cf005b66cf00
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000a0000000f000000
+        actionHashCodes: 5b66cf005b66cf005b66cf005b66cf00
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -6303,35 +6266,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        - useVariable: 1
-          name: RigidBallREF
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 1
-          name: RigidUpperREF
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -6419,30 +6354,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: climbColliderRight
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: JagerMetadata
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: rigidbodyBall
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: JagerMetadata
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: rigidbodyUpper
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -6456,12 +6367,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001200000012000000130000000100000014000000120000001200000013000000010000001400000012000000120000001300000001000000140000001200000012000000130000000100000014000000120000001200000013000000010000001400000012000000120000001300000001000000
+        paramDataType: 1400000012000000120000001300000001000000140000001200000012000000130000000100000014000000120000001200000013000000010000001400000012000000120000001300000001000000
         paramName:
         - gameObject
         - fsmName
@@ -6483,18 +6394,8 @@ MonoBehaviour:
         - variableName
         - storeValue
         - everyFrame
-        - gameObject
-        - fsmName
-        - variableName
-        - storeValue
-        - everyFrame
-        - gameObject
-        - fsmName
-        - variableName
-        - storeValue
-        - everyFrame
-        paramDataPos: 00000000000000000100000000000000000000000100000002000000030000000100000001000000020000000400000005000000020000000200000003000000060000000700000003000000030000000400000008000000090000000400000004000000050000000a0000000b0000000500000005000000
-        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000010000000200000003000000010000000100000002000000040000000500000002000000020000000300000006000000070000000300000003000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000
     - name: zero axis state
       description: 
       colorIndex: 3
@@ -6895,7 +6796,6 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetGravity2dScale
-        - HutongGames.PlayMaker.Actions.SetGravity2dScale
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
@@ -6905,11 +6805,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 000000000400000006000000080000000d00000015000000
-        actionHashCodes: 5e69bb04e8ea3902e8ea3902efa8d304d596ab0249491604
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000004000000060000000b00000013000000
+        actionHashCodes: 5e69bb04e8ea3902efa8d304d596ab0249491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -6919,7 +6818,7 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -6927,15 +6826,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: RigidUpperREF
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -6943,7 +6834,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7021,12 +6912,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -7090,14 +6975,12 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000140000000f000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
+        paramDataType: 1f000000170000000f00000001000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        - gameObject
-        - gravityScale
         - gameObject
         - gravityScale
         - gameObject
@@ -7118,8 +7001,8 @@ MonoBehaviour:
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000020000000000000003000000040000000100000003000000020000000100000002000000050000000600000000000000060000000400000007000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000000000002000000030000000100000002000000020000000100000002000000040000000500000000000000060000000300000007000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
     - name: Ceiling above while already crouched?
       description: 
       colorIndex: 4
@@ -7531,7 +7414,6 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetGravity2dScale
-        - HutongGames.PlayMaker.Actions.SetGravity2dScale
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
@@ -7541,11 +7423,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 000000000400000006000000080000000d00000015000000
-        actionHashCodes: 5e69bb04e8ea3902e8ea3902efa8d304d596ab0249491604
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000004000000060000000b00000013000000
+        actionHashCodes: 5e69bb04e8ea3902efa8d304d596ab0249491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -7555,7 +7436,7 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7563,15 +7444,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: RigidUpperREF
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7579,7 +7452,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7657,12 +7530,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -7726,14 +7593,12 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000140000000f000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
+        paramDataType: 1f000000170000000f00000001000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        - gameObject
-        - gravityScale
         - gameObject
         - gravityScale
         - gameObject
@@ -7754,8 +7619,8 @@ MonoBehaviour:
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000020000000000000003000000040000000100000003000000020000000100000002000000050000000600000000000000060000000400000007000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000000000002000000030000000100000002000000020000000100000002000000040000000500000000000000060000000300000007000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
     - name: left hold
       description: 
       colorIndex: 3
@@ -7937,7 +7802,6 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetGravity2dScale
-        - HutongGames.PlayMaker.Actions.SetGravity2dScale
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
@@ -7947,11 +7811,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 000000000400000006000000080000000d00000015000000
-        actionHashCodes: 5e69bb04e8ea3902e8ea3902efa8d304d596ab0249491604
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000004000000060000000b00000013000000
+        actionHashCodes: 5e69bb04e8ea3902efa8d304d596ab0249491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -7961,7 +7824,7 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7969,15 +7832,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: RigidUpperREF
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -7985,7 +7840,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -8063,12 +7918,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -8132,14 +7981,12 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000140000000f000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
+        paramDataType: 1f000000170000000f00000001000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        - gameObject
-        - gravityScale
         - gameObject
         - gravityScale
         - gameObject
@@ -8160,8 +8007,8 @@ MonoBehaviour:
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000020000000000000003000000040000000100000003000000020000000100000002000000050000000600000000000000060000000400000007000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000000000002000000030000000100000002000000020000000100000002000000040000000500000000000000060000000300000007000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
     - name: down hold
       description: 
       colorIndex: 3
@@ -8343,7 +8190,6 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetGravity2dScale
-        - HutongGames.PlayMaker.Actions.SetGravity2dScale
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
@@ -8353,11 +8199,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 000000000400000006000000080000000d00000015000000
-        actionHashCodes: 5e69bb04e8ea3902e8ea3902efa8d304d596ab0249491604
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000004000000060000000b00000013000000
+        actionHashCodes: 5e69bb04e8ea3902efa8d304d596ab0249491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -8367,7 +8212,7 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -8375,15 +8220,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: RigidUpperREF
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -8391,7 +8228,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -8469,12 +8306,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -8538,14 +8369,12 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000140000000f000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
+        paramDataType: 1f000000170000000f00000001000000140000000f00000014000000250000000f0000000f00000001000000140000000700000025000000250000000f0000000f0000001c000000010000001400000007000000120000001700000013000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        - gameObject
-        - gravityScale
         - gameObject
         - gravityScale
         - gameObject
@@ -8566,8 +8395,8 @@ MonoBehaviour:
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000020000000000000003000000040000000100000003000000020000000100000002000000050000000600000000000000060000000400000007000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000000000002000000030000000100000002000000020000000100000002000000040000000500000000000000060000000300000007000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000010000000000000004000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -9406,7 +9235,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -10504,7 +10333,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -10881,7 +10710,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -11691,7 +11520,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -11933,7 +11762,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -12176,7 +12005,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -12184,7 +12013,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -12192,7 +12021,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -12502,7 +12331,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -14965,15 +14794,13 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetAnimatorSpeed
         - HutongGames.PlayMaker.Actions.SetGravity2dScale
-        - HutongGames.PlayMaker.Actions.SetGravity2dScale
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000300000005000000
-        actionHashCodes: 32d59402e8ea3902e8ea3902
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 32d59402e8ea3902
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -14985,18 +14812,10 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: RigidUpperREF
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -15025,12 +14844,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -15044,17 +14857,15 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000f00000001000000140000000f000000140000000f000000
+        paramDataType: 140000000f00000001000000140000000f000000
         paramName:
         - gameObject
         - speed
         - everyFrame
         - gameObject
         - gravityScale
-        - gameObject
-        - gravityScale
-        paramDataPos: 00000000000000000000000001000000010000000200000002000000
-        paramByteDataSize: 00000000000000000100000000000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000100000001000000
+        paramByteDataSize: 0000000000000000010000000000000000000000
     - name: G Run
       description: 
       colorIndex: 4
@@ -15186,7 +14997,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -15497,7 +15308,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -15774,7 +15585,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -15883,7 +15694,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - floor found
-        byteData: 0001000000000100000000
+        byteData: 0001000000000101000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -16023,7 +15834,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -16132,7 +15943,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - floor found
-        byteData: 0001000000000100000000
+        byteData: 0001000000000101000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -16568,7 +16379,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -16869,7 +16680,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -17170,7 +16981,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -17471,7 +17282,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -17772,7 +17583,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -18073,7 +17884,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -18374,7 +18185,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
+        - ownerOption: 0
           gameObject:
             useVariable: 1
             name: RigidBallREF
@@ -19710,7 +19521,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -20038,7 +19849,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
 --- !u!1 &806689418
@@ -20053,7 +19864,7 @@ GameObject:
   - component: {fileID: 806689419}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21088,8 +20899,8 @@ MonoBehaviour:
       colorIndex: 7
       position:
         serializedVersion: 2
-        x: 53.96875
-        y: 102
+        x: 51.96875
+        y: 114
         width: 100.5
         height: 16
       isBreakpoint: 0
@@ -21097,12 +20908,14 @@ MonoBehaviour:
       hideUnused: 0
       transitions: []
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Comment
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 78c53001
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -21125,16 +20938,19 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - When Player Man implemented, add call to set the current active Input target
+          (for switching chars, remote control, vehicle operation, respawn)
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 03000000
+        paramName:
+        - comment
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
     events:
     - name: G INPUT/CROUCH
       isSystemEvent: 0
@@ -22837,7 +22653,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Untagged
+          value: Player
         - useVariable: 0
           name: 
           tooltip: 
